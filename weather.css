@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    position: relative;
+}
+.container1{
+    position:absolute;
+}
+.container2{
+    position: relative;
+}
+.container1 img{
+   
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 60vw;
+    object-fit: cover;
+    display: block;
+    
+}
+.container2{
+
+    height: 100vh;
+    width: 60vw;
+}
+
+.container2 h2{
+    color:rgb(10, 37, 50);
+    padding: 30px 30px;
+   
+
+}
+.innercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    margin-top: 150px;
+    color:blue;
+
+}
+.innercontainer h1{
+   color:rgb(0, 0, 0);
+}
+
+input[name=city]{
+   margin-top: 20px;
+   border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-image: linear-gradient(rgb(105, 105, 242),black);
+    color: rgb(255, 251, 251);
+   
+   
+}
+
+input[value=submit]{
+    position: relative;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(1, 16, 5);
+    padding: 5px 15px;
+    left: 70px;
+    color: bisque;
+}
+
+.container3{
+    background-image: linear-gradient(black,rgb(9, 9, 107));
+    height: 100vh;
+    width: 50vw;
+    
+}
+
+.outercontainer{
+    display: flex;
+  
+}
+.container3 h1{
+   color:rgb(240, 241, 241);
+   padding: 30px 30px;
+}
+
+.inner{
+    display: flex;
+}
+
+.innercontainer3{
+    border: 2px solid rgb(135, 96, 242);
+    height: 100%;
+    width: 20vw;
+    background-image: linear-gradient(rgb(128, 219, 221),rgb(155, 36, 214));
+    margin-left: 30px;
+    box-shadow: 2px 2px 15px rgb(249, 247, 247);
+    border-radius: 10px;
+    padding: 5px 5px;
+   box-sizing: border-box;
+}
+
+.innercontainer3 h1{
+    color:black;
+    font-weight: 800;
+    font-size:300%;
+}
+
+.innercontainer3 h3{
+    padding-left: 20px ;
+}
+.innercontaine4{
+
+    border-right: 2px solid black;
+    height: 40vh;
+    width: 20vw;
+}
+
+
+
+
+.fivedaystemp{
+
+    border: 2px solid rgb(135, 96, 242);
+    height: 17vh;
+    width: 10vw;
+    background-image: linear-gradient(rgb(128, 219, 221),rgb(155, 36, 214));
+    margin-left: 30px;
+   
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+   
+}
